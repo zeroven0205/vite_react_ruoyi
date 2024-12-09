@@ -1,0 +1,21 @@
+// src/App.less
+@primary-color: #1890ff;
+
+.App {
+  display: flex;
+  text-align: center;
+  color: @primary-color;
+  .ant-menu {
+    max-width: 200px;
+  }
+  .ant-menu-root {
+    height: 100vh;
+  }
+  .ant-menu-item-selected {
+    background-color: @primary-color;
+  }
+  .page-todo {
+    flex: 1;
+    padding: 4em 2em;
+  }
+}
