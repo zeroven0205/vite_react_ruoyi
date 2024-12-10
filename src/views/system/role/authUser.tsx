@@ -1,9 +1,9 @@
 /*
- * @Author: your name
- * @Date: 2021-11-05 11:47:51
- * @LastEditTime: 2021-12-09 11:40:15
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
+ * @Author: zero_ven
+ * @Date: 2024-11-05 11:47:51
+ * @LastEditTime: 2024-12-09 11:40:15
+ * 
+ * @Description: 
  * @FilePath: /use-hooks/src/views/system/role/authUser.tsx
  */
 

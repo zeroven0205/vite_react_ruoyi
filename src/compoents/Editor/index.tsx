@@ -1,9 +1,9 @@
 /*
- * @Author: your name
- * @Date: 2021-10-25 14:32:35
- * @LastEditTime: 2021-10-26 15:02:33
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
+ * @Author: zero_ven
+ * @Date: 2024-10-25 14:32:35
+ * @LastEditTime: 2024-10-26 15:02:33
+ * 
+ * @Description: 
  * @FilePath: /use-hooks/src/compoents/Editor/index.tsx
  */
 import E from "wangeditor";

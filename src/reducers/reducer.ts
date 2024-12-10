@@ -1,9 +1,9 @@
 /*
- * @Author: your name
- * @Date: 2021-10-11 16:25:10
- * @LastEditTime: 2021-11-23 11:33:48
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
+ * @Author: zero_ven
+ * @Date: 2024-10-11 16:25:10
+ * @LastEditTime: 2024-11-23 11:33:48
+ * 
+ * @Description: 
  * @FilePath: /use-hooks/src/reducers/reducer.js
  */
 

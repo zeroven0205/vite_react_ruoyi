@@ -1,9 +1,9 @@
 /*
- * @Author: your name
- * @Date: 2021-10-27 14:25:33
- * @LastEditTime: 2021-10-27 14:25:33
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
+ * @Author: zero_ven
+ * @Date: 2024-10-27 14:25:33
+ * @LastEditTime: 2024-10-27 14:25:33
+ * 
+ * @Description: 
  * @FilePath: /use-hooks/src/api/system/log/logininfor.ts
  */
 import request from "@/utils/request"

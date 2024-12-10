@@ -1,9 +1,9 @@
 /*
- * @Author: your name
- * @Date: 2021-10-29 15:17:12
- * @LastEditTime: 2021-11-08 16:41:46
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
+ * @Author: zero_ven
+ * @Date: 2024-10-29 15:17:12
+ * @LastEditTime: 2024-11-08 16:41:46
+ * 
+ * @Description: 
  * @FilePath: /use-hooks/src/views/system/dict/type.tsx
  */
 import { useState, useEffect, useRef } from "react";

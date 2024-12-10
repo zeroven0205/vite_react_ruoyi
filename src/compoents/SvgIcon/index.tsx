@@ -1,9 +1,9 @@
 /*
- * @Author: your name
- * @Date: 2021-11-08 15:36:41
- * @LastEditTime: 2021-11-11 16:43:12
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
+ * @Author: zero_ven
+ * @Date: 2024-11-08 15:36:41
+ * @LastEditTime: 2024-11-11 16:43:12
+ * 
+ * @Description: 
  * @FilePath: /use-hooks/src/compoents/SvgIcon/index.tsx
  */
 import React, { useEffect } from "react";

@@ -1,9 +1,9 @@
 /*
- * @Author: your name
- * @Date: 2021-10-09 17:25:46
- * @LastEditTime: 2021-10-11 09:25:54
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
+ * @Author: zero_ven
+ * @Date: 2024-10-09 17:25:46
+ * @LastEditTime: 2024-10-11 09:25:54
+ * 
+ * @Description: 
  * @FilePath: /use-hooks/src/utils/errorCode.ts
  */
 const obj = {

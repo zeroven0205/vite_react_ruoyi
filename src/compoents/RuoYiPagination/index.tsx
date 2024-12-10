@@ -1,9 +1,9 @@
 /*
- * @Author: your name
- * @Date: 2021-10-20 11:00:02
- * @LastEditTime: 2021-11-24 09:57:55
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
+ * @Author: zero_ven
+ * @Date: 2024-10-20 11:00:02
+ * @LastEditTime: 2024-11-24 09:57:55
+ * 
+ * @Description: 
  * @FilePath: /use-hooks/src/compoents/RuoYiPagination/index.tsx
  */
 import React, { useEffect } from "react";

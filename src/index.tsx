@@ -1,9 +1,9 @@
 /*
- * @Author: your name
- * @Date: 2021-10-09 09:36:54
+ * @Author: zero_ven
+ * @Date: 2024-10-09 09:36:54
  * @LastEditTime: 2022-01-04 09:52:15
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
+ * 
+ * @Description: 
  * @FilePath: /use-hooks/src/index.tsx
  */
 import ReactDOM from "react-dom";

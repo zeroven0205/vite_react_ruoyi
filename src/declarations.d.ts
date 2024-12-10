@@ -1,9 +1,6 @@
 /*
- * @Author: your name
- * @Date: 2021-10-09 10:04:22
- * @LastEditTime: 2021-12-09 15:52:44
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
+ * @Author: zero_ven
+ * @datetime  2024/12/08
  * @FilePath: /use-hooks/src/declarations.d.ts
  */
 declare module "*.svg" {

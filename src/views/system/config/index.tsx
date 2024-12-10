@@ -1,8 +1,8 @@
 /*
- * @Author: your name
- * @Date: 2021-10-28 10:00:34
- * @LastEditTime: 2021-11-08 16:41:34
- * @LastEditors: Please set LastEditors
+ * @Author: zero_ven
+ * @Date: 2024-10-28 10:00:34
+ * @LastEditTime: 2024-11-08 16:41:34
+ * 
  * @Description: 参数设置
  * @FilePath: /use-hooks/src/views/system/config/index.tsx
  */

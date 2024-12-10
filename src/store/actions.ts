@@ -1,9 +1,9 @@
 /*
- * @Author: your name
- * @Date: 2021-10-11 17:23:34
- * @LastEditTime: 2021-11-23 11:39:18
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
+ * @Author: zero_ven
+ * @Date: 2024-10-11 17:23:34
+ * @LastEditTime: 2024-11-23 11:39:18
+ * 
+ * @Description: 
  * @FilePath: /use-hooks/src/store/actions.ts
  */
 import { getInfo, logout } from "../api/login/login";

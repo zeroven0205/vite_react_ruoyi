@@ -1,8 +1,8 @@
 /*
- * @Author: your name
- * @Date: 2021-10-27 09:51:19
- * @LastEditTime: 2021-11-23 16:12:39
- * @LastEditors: Please set LastEditors
+ * @Author: zero_ven
+ * @Date: 2024-10-27 09:51:19
+ * @LastEditTime: 2024-11-23 16:12:39
+ * 
  * @Description: 操作日志
  * @FilePath: /use-hooks/src/views/system/log/operlog/index.tsx
  */
