@@ -1,9 +1,9 @@
 /*
- * @Author: zero_ven
- * @Date: 2024-10-27 14:24:40
- * @LastEditTime: 2024-10-27 14:24:40
- * 
- * @Description: 
+ * @Author: zero-ven
+ * @Date: 2021-10-27 14:24:40
+ * @LastEditTime: 2021-10-27 14:24:40
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
  * @FilePath: /use-hooks/src/api/system/operlog.ts
  */
 import request from "@/utils/request"

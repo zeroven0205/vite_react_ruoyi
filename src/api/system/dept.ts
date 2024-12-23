@@ -1,9 +1,9 @@
 /*
- * @Author: zero_ven
- * @Date: 2024-10-13 10:05:43
- * @LastEditTime: 2024-10-22 15:26:45
- * 
- * @Description: 
+ * @Author: zero-ven
+ * @Date: 2021-10-13 10:05:43
+ * @LastEditTime: 2021-10-22 15:26:45
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
  * @FilePath: /use-hooks/src/api/system/dept.ts
  */
 import request from '../../utils/request'
@@ -35,7 +35,7 @@ export function listDept(query?: any) {
   // 查询部门下拉树结构
   export function treeselect() {
     return request({
-      url: '/system/dept/treeselect',
+      url: '/system/user/deptTree',
       method: 'get'
     })
   }

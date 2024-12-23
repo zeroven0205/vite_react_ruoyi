@@ -1,9 +1,9 @@
 /*
- * @Author: zero_ven
- * @Date: 2024-10-09 09:36:54
+ * @Author: zero-ven
+ * @Date: 2021-10-09 09:36:54
  * @LastEditTime: 2022-01-04 09:52:15
- * 
- * @Description: 
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
  * @FilePath: /use-hooks/src/index.tsx
  */
 import ReactDOM from "react-dom";
@@ -19,7 +19,6 @@ import '@/assets/icons/index'
 
 // 引入 redux test
 import store from "./store";
-
 ReactDOM.render(
   // <React.StrictMode> 关闭严格模式
   <ConfigProvider locale={zhCN}>

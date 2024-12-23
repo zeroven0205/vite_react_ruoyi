@@ -1,9 +1,9 @@
 /*
- * @Author: zero_ven
- * @Date: 2024-10-15 10:36:00
- * @LastEditTime: 2024-11-24 09:57:51
- * 
- * @Description: 
+ * @Author: zero-ven
+ * @Date: 2021-10-15 10:36:00
+ * @LastEditTime: 2021-11-24 09:57:51
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
  * @FilePath: /use-hooks/src/compoents/ColTransfer/index.ts
  */
 import React, { useState } from "react";

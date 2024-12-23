@@ -1,9 +1,9 @@
 /*
- * @Author: zero_ven
- * @Date: 2024-10-29 14:56:47
- * @LastEditTime: 2024-10-29 14:56:48
- * 
- * @Description: 
+ * @Author: zero-ven
+ * @Date: 2021-10-29 14:56:47
+ * @LastEditTime: 2021-10-29 14:56:48
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
  * @FilePath: /use-hooks/src/api/system/dict/data.ts
  */
 import request from "@/utils/request"

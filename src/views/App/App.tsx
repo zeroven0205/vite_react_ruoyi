@@ -1,9 +1,9 @@
 /*
- * @Author: zero_ven
- * @Date: 2024-10-09 09:36:54
- * @LastEditTime: 2024-12-10 13:56:43
- * 
- * @Description: 
+ * @Author: zero-ven
+ * @Date: 2021-10-09 09:36:54
+ * @LastEditTime: 2021-12-10 13:56:43
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
  * @FilePath: /use-hooks/src/views/App/App.tsx
  */
 import "./App.less";
@@ -11,7 +11,7 @@ import "antd/dist/antd.variable.min.css";
 import React, { useEffect, useState, useRef, createContext } from "react";
 import { Layout, Menu, Avatar, Dropdown, Modal } from "antd";
 import HeaderScroll from "@/compoents/HeaderScroll";
-import { MenuUnfoldOutlined, MenuFoldOutlined, AppstoreOutlined, CaretDownOutlined, FullscreenOutlined, FullscreenExitOutlined, BgColorsOutlined } from "@ant-design/icons";
+import { MenuUnfoldOutlined, MenuFoldOutlined, AppstoreOutlined, CaretDownOutlined, FullscreenOutlined, FullscreenExitOutlined, BgColorsOutlined, BarcodeOutlined } from "@ant-design/icons";
 import routers from "../../router";
 import { Route, NavLink } from "react-router-dom";
 import { connect } from "react-redux";
@@ -405,6 +405,41 @@ function App(props: any) {
                 首页
               </NavLink>
             </Menu.Item>
+            {/* <SubMenu key="/system/user" title="系统管理" icon={<BarcodeOutlined />}>
+              <Menu.Item >
+                <NavLink
+                  onClick={() => {
+                    toClickNavLink("/system/user", "用户管理");
+                  }}
+                  style={{ textDecoration: "none" }}
+                  to="/system/user"
+                >
+                  用户管理
+                </NavLink>
+              </Menu.Item>
+              <Menu.Item >
+                <NavLink
+                  onClick={() => {
+                    toClickNavLink("/system/role", "角色管理");
+                  }}
+                  style={{ textDecoration: "none" }}
+                  to="/system/role"
+                >
+                  角色管理
+                </NavLink>
+              </Menu.Item>
+              <Menu.Item >
+                <NavLink
+                  onClick={() => {
+                    toClickNavLink("/system/dept", "部门管理");
+                  }}
+                  style={{ textDecoration: "none" }}
+                  to="/system/dept"
+                >
+                  部门管理
+                </NavLink>
+              </Menu.Item>
+            </SubMenu> */}
             {props.sidebarRoutes.map((item: any) => {
               if (!item.hidden && item.alwaysShow) {
                 return (
@@ -420,7 +455,6 @@ function App(props: any) {
                                     <Menu.Item key={item.path + "/" + e.path + "/" + i.path}>
                                       <NavLink
                                         onClick={() => {
-                                          console.log();
                                           toClickNavLink(item.path + "/" + e.path + "/" + i.path, i.meta.title);
                                         }}
                                         style={{ textDecoration: "none" }}

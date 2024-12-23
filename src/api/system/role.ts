@@ -1,9 +1,9 @@
 /*
- * @Author: zero_ven
- * @Date: 2024-10-09 17:35:02
- * @LastEditTime: 2024-11-03 09:45:46
- * 
- * @Description: 
+ * @Author: zero-ven
+ * @Date: 2021-10-09 17:35:02
+ * @LastEditTime: 2021-11-03 09:45:46
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
  * @FilePath: /use-hooks/src/api/system/role.ts
  */
 

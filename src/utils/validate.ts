@@ -1,9 +1,9 @@
 /*
- * @Author: zero_ven
- * @Date: 2024-11-08 15:41:03
- * @LastEditTime: 2024-11-09 08:51:07
- * 
- * @Description: 
+ * @Author: zero-ven
+ * @Date: 2021-11-08 15:41:03
+ * @LastEditTime: 2021-11-09 08:51:07
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
  * @FilePath: /use-hooks/src/utils/validate.ts
  */
 /**

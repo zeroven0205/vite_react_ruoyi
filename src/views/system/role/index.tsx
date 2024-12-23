@@ -1,13 +1,16 @@
 /*
- * @Author: zero_ven
- * @Date: 2024-10-09 17:04:19
- * @LastEditTime: 2024-12-06 10:17:06
- * 
- * @Description: 
+ * @Author: zero-ven
+ * @Date: 2021-10-09 17:04:19
+ * @LastEditTime: 2021-12-06 10:17:06
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
  * @FilePath: /use-hooks/src/views/system/role/index.tsx
  */
 import { useState, useEffect, useRef } from "react";
 import "./index.less";
+import { connect } from "react-redux";
+import { bindActionCreators } from "redux";
+import actions from "@/store/actions";
 
 import HeaderBar from "../../../compoents/HeaderBar";
 
@@ -783,4 +786,7 @@ function Role(props:any) {
     </div>
   );
 }
-export default Role;
+// export default Role;
+const mapDispatchToProps = (dispatch: any) => bindActionCreators(actions, dispatch);
+
+export default connect((state: any) => state, mapDispatchToProps)(Role);

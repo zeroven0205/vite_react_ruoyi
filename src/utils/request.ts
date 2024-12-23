@@ -1,9 +1,9 @@
 /*
- * @Author: zero_ven
- * @Date: 2024-10-09 17:17:06
- * @LastEditTime: 2024-10-27 08:56:56
- * 
- * @Description: 
+ * @Author: zero-ven
+ * @Date: 2021-10-09 17:17:06
+ * @LastEditTime: 2021-10-27 08:56:56
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
  * @FilePath: /use-hooks/src/utils/request.ts
  */
 //
@@ -125,10 +125,10 @@ service.interceptors.response.use(
     let { msg } = error;
     if (msg === "Network Error") {
       msg = "后端接口连接异常";
-    } else if (msg.includes("timeout")) {
+    } else if (msg?.includes("timeout")) {
       msg = "系统接口请求超时";
-    } else if (msg.includes("Request failed with status code")) {
-      msg = "系统接口" + msg.substr(msg.length - 3) + "异常";
+    } else if (msg?.includes("Request failed with status code")) {
+      msg = "系统接口" + msg?.substr(msg.length - 3) + "异常";
     }else{
       msg = '服务器开小差了，请稍后！';
     }

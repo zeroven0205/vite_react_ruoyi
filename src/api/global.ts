@@ -1,9 +1,9 @@
 /*
- * @Author: zero_ven
- * @Date: 2024-10-13 15:14:08
- * @LastEditTime: 2024-10-25 15:02:35
- * 
- * @Description: 
+ * @Author: zero-ven
+ * @Date: 2021-10-13 15:14:08
+ * @LastEditTime: 2021-10-25 15:02:35
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
  * @FilePath: /use-hooks/src/api/global.ts
  */
 import request from "../utils/request";

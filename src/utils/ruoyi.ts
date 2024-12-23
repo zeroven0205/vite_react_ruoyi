@@ -1,9 +1,9 @@
 /*
- * @Author: zero_ven
- * @Date: 2024-10-09 17:37:13
- * @LastEditTime: 2024-11-24 09:30:06
- * 
- * @Description: 
+ * @Author: zero-ven
+ * @Date: 2021-10-09 17:37:13
+ * @LastEditTime: 2021-11-24 09:30:06
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
  * @FilePath: /use-hooks/src/utils/ruoyi.js
  */
 import { REACT_APP_BASE_API } from "@/utils/const";

@@ -1,9 +1,9 @@
 /*
- * @Author: zero_ven
- * @Date: 2024-10-29 15:17:04
- * @LastEditTime: 2024-12-02 15:42:11
- * 
- * @Description: 
+ * @Author: zero-ven
+ * @Date: 2021-10-29 15:17:04
+ * @LastEditTime: 2021-12-02 15:42:11
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
  * @FilePath: /use-hooks/src/views/system/dict/data.tsx
  */
 

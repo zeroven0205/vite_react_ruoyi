@@ -1,16 +1,16 @@
 /*
- * @Author: zero_ven
- * @Date: 2024-10-11 17:23:34
- * @LastEditTime: 2024-11-23 11:39:18
- * 
- * @Description: 
+ * @Author: zero-ven
+ * @Date: 2021-10-11 17:23:34
+ * @LastEditTime: 2021-11-23 11:39:18
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
  * @FilePath: /use-hooks/src/store/actions.ts
  */
 import { getInfo, logout } from "../api/login/login";
 import { getRouters } from "@/api/menu";
 import cookie from "react-cookies";
 import App from "@/views/App/App";
-// import { asyncComponent } from "@/utils/asyncComponent";
+import { asyncComponent } from "@/utils/asyncComponent";
 import loadable from "@/utils/loadable";
 
 const actions = {

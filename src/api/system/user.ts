@@ -1,9 +1,9 @@
 /*
- * @Author: zero_ven
- * @Date: 2024-10-09 17:35:06
- * @LastEditTime: 2024-11-22 16:55:49
- * 
- * @Description: 
+ * @Author: zero-ven
+ * @Date: 2021-10-09 17:35:06
+ * @LastEditTime: 2021-11-22 16:55:49
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
  * @FilePath: /use-hooks/src/api/system/user.ts
  */
 import request from "../../utils/request";
@@ -160,3 +160,11 @@ export function importFile(data: any, updateSupport: number) {
     data,
   });
 }
+
+// /system/user/deptTree
+export function getDeptTree() {
+  return request({
+    url: "/system/user/deptTree",
+    method: "get",
+  });
+} 

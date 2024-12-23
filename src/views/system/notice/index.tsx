@@ -1,9 +1,9 @@
 /*
- * @Author: zero_ven
- * @Date: 2024-10-25 13:47:29
- * @LastEditTime: 2024-11-08 10:45:35
- * 
- * @Description: 
+ * @Author: zero-ven
+ * @Date: 2021-10-25 13:47:29
+ * @LastEditTime: 2021-11-08 10:45:35
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
  * @FilePath: /use-hooks/src/views/system/notice/index.tsx
  */
 import { useState, useEffect, useRef } from "react";

@@ -1,9 +1,9 @@
 /*
- * @Author: zero_ven
- * @Date: 2024-10-25 16:16:49
- * @LastEditTime: 2024-10-25 16:16:49
- * 
- * @Description: 
+ * @Author: zero-ven
+ * @Date: 2021-10-25 16:16:49
+ * @LastEditTime: 2021-10-25 16:16:49
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
  * @FilePath: /use-hooks/src/api/system/notice.ts
  */
 import request from '../../utils/request'

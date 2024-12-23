@@ -1,8 +1,8 @@
 /*
- * @Author: zero_ven
- * @Date: 2024-11-18 10:13:57
- * @LastEditTime: 2024-11-18 10:40:26
- * 
+ * @Author: zero-ven
+ * @Date: 2021-11-18 10:13:57
+ * @LastEditTime: 2021-11-18 10:40:26
+ * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: /use-hooks/src/utils/asyncComponent.ts
  */

@@ -1,9 +1,9 @@
 /*
- * @Author: zero_ven
- * @Date: 2024-10-09 17:04:33
- * @LastEditTime: 2024-10-29 16:05:38
- * 
- * @Description: 
+ * @Author: zero-ven
+ * @Date: 2021-10-09 17:04:33
+ * @LastEditTime: 2021-10-29 16:05:38
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
  * @FilePath: /use-hooks/src/views/system/user/index.tsx
  */
 import React, { useState, useEffect, useRef } from "react";
@@ -11,10 +11,14 @@ import "./index.less";
 import { listUser, getUser, updateUser, addUser, delUser, resetUserPwd, importTemplate, importFile, exportUser, getAuthRole, updateAuthRole, changeUserStatus } from "../../../api/system/user";
 import { Descriptions, Checkbox, Upload, Tree, Dropdown, Menu, Input, Row, Col, Form, Button, Select, DatePicker, Tooltip, Table, Space, Switch, Modal, Radio, TreeSelect, message } from "antd";
 import { InboxOutlined, KeyOutlined, SmileOutlined, ExclamationCircleOutlined, SearchOutlined, SyncOutlined, AppstoreOutlined, PlusOutlined, DeleteOutlined, EditOutlined, VerticalAlignTopOutlined, VerticalAlignBottomOutlined, DoubleRightOutlined } from "@ant-design/icons";
-import { treeselect } from "../../../api/system/dept";
+import { getDeptTree } from "../../../api/system/user";
 import { getDicts } from "../../../api/global";
 import { download } from "../../../utils/ruoyi";
 import moment from "moment";
+import { connect } from "react-redux";
+//从redux中引入一个方法用于将actionCreators中的方法进行绑定 就是用  dispatch({actions暴露方法})
+import { bindActionCreators } from "redux";
+import actions from "@/store/actions";
 
 import ColTransfer from "../../../compoents/ColTransfer";
 import HeaderBar from "../../../compoents/HeaderBar";
@@ -216,7 +220,7 @@ function User() {
       });
     });
     getList();
-    getOtherList();
+    getOtherList(); // 获取部门树
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   /**
@@ -425,7 +429,7 @@ function User() {
    * @return {*}
    */
   const getOtherList = () => {
-    treeselect().then((res: any) => {
+    getDeptTree().then((res: any) => {
       const cal = function (data: any[]) {
         data.forEach((i: any) => {
           dataList.push(i);
@@ -1038,4 +1042,8 @@ function User() {
     </div>
   );
 }
-export default User;
+// export default User;
+
+const mapDispatchToProps = (dispatch: any) => bindActionCreators(actions, dispatch);
+
+export default connect((state: any) => state, mapDispatchToProps)(User);

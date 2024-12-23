@@ -1,12 +1,15 @@
 /*
- * @Author: zero_ven
- * @Date: 2024-11-05 11:47:51
- * @LastEditTime: 2024-12-09 11:40:15
- * 
- * @Description: 
+ * @Author: zero-ven
+ * @Date: 2021-11-05 11:47:51
+ * @LastEditTime: 2021-12-09 11:40:15
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
  * @FilePath: /use-hooks/src/views/system/role/authUser.tsx
  */
 
+import { connect } from "react-redux";
+import { bindActionCreators } from "redux";
+import actions from "@/store/actions";
 import { useState, useEffect, useRef, useContext } from "react";
 import "./authUser.less";
 
@@ -475,4 +478,7 @@ function AuthUser(props: any) {
     </div>
   );
 }
-export default AuthUser;
+// export default AuthUser;
+const mapDispatchToProps = (dispatch: any) => bindActionCreators(actions, dispatch);
+
+export default connect((state: any) => state, mapDispatchToProps)(AuthUser);
